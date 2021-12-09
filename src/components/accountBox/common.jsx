@@ -15,18 +15,18 @@ export const FormContainer = styled.form`
   box-shadow: 0px 0px 2.5px rgba(15, 15, 15, 0.19);
 `;
 
-export const MutedLink = styled.a`
-   color: rgba(159, 162, 180, 1);
+export const MutedLink = styled.button`
+  color: rgba(159, 162, 180, 1);
   text-decoration: none;
   //styleName: Reg 14 (0.3 px);
-font-family: Mulish;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.30000001192092896px;
-text-align: center;
-
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: center;
+  cursor: pointer;
 `;
 export const OrText = styled.a`
    color: background: rgba(0, 0, 0, 1);
@@ -46,25 +46,23 @@ letter-spacing: 0em;
 
 `;
 
-
-export const BoldLink = styled.a`
-//styleName: Semibold 14 (0.2 px);
-font-family: Mulish;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0.20000000298023224px;
-text-align: center;
-// background: rgba(55, 81, 255, 1);
-height: 20px;
-width: 51px;
-left: 0px;
-top: 0px;
-border-radius: nullpx;
-
-Color: #3751FF;
-
+export const BoldLink = styled.button`
+  //styleName: Semibold 14 (0.2 px);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  // background: rgba(55, 81, 255, 1);
+  height: 20px;
+  width: 51px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  cursor: pointer;
+  color: #3751ff;
 `;
 
 export const Input = styled.input`
@@ -103,7 +101,7 @@ export const Input = styled.input`
 export const LoginSubmitButton = styled.button`
   width: 100%;
   padding: 11px 40%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Mulish;
   font-style: normal;
   font-size: 14px;
@@ -122,16 +120,16 @@ export const LoginSubmitButton = styled.button`
   &:hover {
     filter: brightness(1.03);
   }
-  background: #6E9D30;
-/* button / accent default */
+  background: #6e9d30;
+  /* button / accent default */
 
-box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
-border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+  border-radius: 8px;
 `;
 export const SignUpSubmitButton = styled.button`
   width: 100%;
   padding: 11px 40%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Mulish;
   font-style: normal;
   font-size: 14px;
@@ -150,24 +148,22 @@ export const SignUpSubmitButton = styled.button`
   &:hover {
     filter: brightness(1.03);
   }
-  background: #700193
-  ;
-/* button / accent default */
+  background: #700193;
+  /* button / accent default */
 
-box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
-border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+  border-radius: 8px;
 `;
 export const WithGoogleSubmitButton = styled.button`
-width: 100%;
+  width: 100%;
   padding: 11px 40%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Mulish;
   font-style: normal;
   font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
   text-align: center;
-  
 
   border: none;
   // border-radius: 100px 100px 100px 100px;
@@ -183,29 +179,25 @@ width: 100%;
   &:hover {
     filter: brightness(1.03);
   }
-  background: #DB2721;
-/* button / accent default */
+  background: #db2721;
+  /* button / accent default */
 
-box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
-border-radius: 8px;
-
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+  border-radius: 8px;
 `;
 export const Label = styled.a`
-height: 16px;
-width: 316px;
-left: 0px;
-top: 0px;
-border-radius: nullpx;
-//styleName: Bold 12 (0.3 px, CAPS);
-font-family: Mulish;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: 15px;
-letter-spacing: 0.30000001192092896px;
-text-align: left;
-color: rgba(159, 162, 180, 1);
-
-
-
+  height: 16px;
+  width: 316px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  //styleName: Bold 12 (0.3 px, CAPS);
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  color: rgba(159, 162, 180, 1);
 `;
